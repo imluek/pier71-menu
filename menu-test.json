@@ -99,11 +99,11 @@
             { "type": "item", "name": "Two Eggs on Sourdough Toast", "desc": "Poached, scrambled or fried", "price": { "amount": "15.9" } },
             { "type": "item", "name": "Granola", "desc": "Yoghurt, chia seeds & mixed berries", "price": { "amount": "18.9" } },
             { "type": "item", "name": "Smashed Avocado", "desc": "Sourdough toast with goats cheese, mild chilli, on a bed of rocket", "price": { "amount": "22.9" } },
-            { "type": "note", "lines": ["+ Poached eggs", "$2.9"] },
+            { "type": "addon", "text": "+ Poached eggs", "price": "2.9" },
             { "type": "item", "name": "Eggs Benedict", "desc": "Two poached eggs, hollandaise sauce & your choice of ham or bacon on sourdough toast", "price": { "amount": "20.9" } },
             { "type": "item", "name": "Eggs Florentine", "desc": "Two poached eggs with spinach, smoked salmon & hollandaise sauce on sourdough toast", "price": { "amount": "22.9" } },
             { "type": "item", "name": "Veggie Breaky", "desc": "Sourdough toast with mushrooms, cherry tomatoes, spinach, avocado", "price": { "amount": "22.9" } },
-            { "type": "note", "lines": ["+ Poached eggs", "$2.9"] },
+            { "type": "addon", "text": "+ Poached eggs", "price": "2.9" },
             { "type": "item", "name": "Pancakes", "desc": "House made with your choice of strawberries, mixed berries or nutella, drizzled with maple syrup", "price": { "amount": "20.9" } },
             { "type": "item", "name": "Italian Omelette", "desc": "Ham, cheese & tomato with sourdough bread", "price": { "amount": "21.9" } },
             { "type": "item", "name": "Pier 71 Big Breakfast", "desc": "Eggs made your way on toasted sourdough with bacon, italian sausage, mushrooms, cherry tomatoes and spinach", "price": { "amount": "24.9" } },
@@ -124,7 +124,7 @@
             { "type": "item", "name": "Tiramisu", "desc": "House made italian sponge cake soaked in coffee, marscapone cream, flavoured with cocoa", "price": { "amount": "12.5" } },
             { "type": "item", "name": "Nutella Pizza", "desc": "With strawberries and vanilla ice cream", "price": { "amount": "27" } },
             { "type": "item", "name": "Affogato", "desc": "With ice cream & a shot of espresso", "price": { "amount": "8" } },
-            { "type": "note", "lines": ["+ Frangelico / Liqueur", "$13"] },
+            { "type": "addon", "text": "+ Frangelico / Liqueur", "price": "13" },
             { "type": "item", "name": "Assorted Cakes (Gluten free options)", "desc": "See display fridge in-store" }
           ]
         }
@@ -171,7 +171,7 @@
         {
           "title": "Vino - Wine",
           "items": [
-            { "type": "note", "lines": ["Sparkling"] },
+            { "type": "subheading", "text": "Sparkling" },
             { "type": "item", "name": "Nao Nis Prosecco - Veneto, ITA", "price": { "lines": [{ "label": "Bottle", "amount": "49" }] } },
             { "type": "item", "name": "Sevita Prosecco - King Valley, VIC", "price": { "lines": [{ "label": "Glass", "amount": "13" }, { "label": "Bottle", "amount": "45" }] } },
             { "type": "item", "name": "Patritti Lightly Sparkling Pink Moscato - McLaren Vale, SA", "price": { "lines": [{ "label": "Glass", "amount": "13" }, { "label": "Bottle", "amount": "45" }] } },
@@ -180,7 +180,7 @@
 
             { "type": "spacer" },
 
-            { "type": "note", "lines": ["White"] },
+            { "type": "subheading", "text": "White" },
             { "type": "item", "name": "Tohu Sauv Blanc - Marlborough, NZ", "price": { "lines": [{ "label": "Glass", "amount": "14" }, { "label": "Bottle", "amount": "65" }] } },
             { "type": "item", "name": "Sorby Adams Pinot Grigio - Eden Valley, SA", "price": { "lines": [{ "label": "Glass", "amount": "14" }, { "label": "Bottle", "amount": "65" }] } },
             { "type": "item", "name": "Stonehaven Reserve Chardonnay - Padthaway, SA", "price": { "lines": [{ "label": "Glass", "amount": "14" }, { "label": "Bottle", "amount": "65" }] } },
@@ -191,7 +191,7 @@
 
             { "type": "spacer" },
 
-            { "type": "note", "lines": ["Rosé & Reds"] },
+            { "type": "subheading", "text": "Rosé & Reds" },
             { "type": "item", "name": "Gudilly Rose - Adelaide, SA", "price": { "lines": [{ "label": "Glass", "amount": "13" }, { "label": "Bottle", "amount": "55" }] } },
             { "type": "item", "name": "Hare Raising Pinot Noir - Yarra Valley, VIC", "price": { "lines": [{ "label": "Glass", "amount": "14" }, { "label": "Bottle", "amount": "55" }] } },
             { "type": "item", "name": "Ceravolo Sangiovese - Adelaide Hills ,SA", "price": { "lines": [{ "label": "Glass", "amount": "13" }, { "label": "Bottle", "amount": "55" }] } },
@@ -243,9 +243,15 @@
           "items": [
             { "type": "note", "lines": ["Vodka, Jim Beam White, Gin, Canadian Club, Famous Grouse Scotch, Cinzano Rosso & Dry, Baileys, Midori, Cointreau, Jack Daniels"] },
             { "type": "note", "lines": ["Galliano Black, Amaretto, Galliano Ristretto, Frangelico, Limoncello, Johnny Walker Black Label, Grey Goose Vodka, Alizé, Zubrowski Polish Vodka"] },
-            { "type": "note", "lines": ["Aperitivi"] },
+
+            { "type": "spacer" },
+
+            { "type": "subheading", "text": "Aperitivi" },
             { "type": "note", "lines": ["Campari, Aperol, Cinzano Rosso"] },
-            { "type": "note", "lines": ["Digestives"] },
+
+            { "type": "spacer" },
+
+            { "type": "subheading", "text": "Digestives" },
             { "type": "note", "lines": ["Averna, Amaro del Capo, Limoncello, Frangelico, Baileys"] },
             { "type": "note", "lines": ["Amaretto, Sambuca Black/White"] },
             { "type": "note", "lines": ["Fernet Branca"] }
