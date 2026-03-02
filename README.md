@@ -1,2 +1,2 @@
 # pier71-menu
-easy update menu stuff
+easy update website menu with .json file
