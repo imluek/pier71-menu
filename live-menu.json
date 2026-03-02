@@ -119,7 +119,14 @@
             { "type": "item", "name": "Pancakes", "desc": "House made with your choice of strawberries, mixed berries or nutella, drizzled with maple syrup", "price": { "amount": "20.9" } },
             { "type": "item", "name": "Italian Omelette", "desc": "Ham, cheese & tomato with sourdough bread", "price": { "amount": "21.9" } },
             { "type": "item", "name": "Pier 71 Big Breakfast", "desc": "Eggs made your way on toasted sourdough with bacon, italian sausage, mushrooms, cherry tomatoes and spinach", "price": { "amount": "24.9" } },
-            { "type": "item", "name": "Extras", "desc": "- Bacon, sausage, ham | $5.9\n- Cherry tomatoes, mushrooms, spinach | $4.9\n- Salmon | $6.9\n- Egg | $2.9\n- Extra sauce | $1" }
+            
+            { "type": "subheading", "text": "Extras" },
+
+            { "type": "note", "lines": ["- Bacon, sausage, ham | $5.9"] },
+            { "type": "note", "lines": ["- Cherry tomatoes, mushrooms, spinach | $4.9"] },
+            { "type": "note", "lines": ["- Salmon | $6.9"] },
+            { "type": "note", "lines": ["- Egg | $2.9"] },
+            { "type": "note", "lines": ["- Extra sauce | $1"] }
           ]
         },
         {
