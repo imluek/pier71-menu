@@ -9,93 +9,473 @@
           "title": "Assagini - Share Plates",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Pier 71 Chips", "desc": "With tomato aioli", "price": {"amount": "12.5"}},
-            {"type": "item", "name": "Polenta", "desc": "Crispy polenta sticks, bolognese sauce", "price": {"amount": "13.5"}},
-            {"type": "item", "name": "Arancini (3pcs)", "desc": "House made rice balls with bolognese, mozzarella, peas & parmesan, sweet mustard sauce", "price": {"amount": "19.2"}},
-            {"type": "item", "name": "Crocchette (3pcs) (Croquettes)", "desc": "Potato and smoked scamorza cheese", "price": {"amount": "17.2"}},
-            {"type": "item", "name": "Polpette Meatballs (3pcs)", "desc": "House made, served with napoli sauce", "price": {"amount": "17.5"}},
-            {"type": "item", "name": "Focaccia Garlic", "desc": "Classic italian focaccia with extra virgin olive oil, herbs & sea salt", "price": {"amount": "18.5"}},
-            {"type": "item", "name": "Focaccia Bruschetta", "desc": "Pesto, fior di latte, cherry tomatoes, olives, basil, balsamic glaze", "price": {"amount": "24.5"}},
-            {"type": "item", "name": "Beef Sliders (2pcs)", "desc": "Toasted brioche bun, tasty cheese & tomato aioli", "price": {"amount": "16.9"}},
-            {"type": "item", "name": "Antipasto Platter (Serves 2)", "desc": "Selection of italian cured meats & cheeses with crusty bread", "price": {"amount": "42"}}
+            {
+              "type": "item",
+              "name": "Chips",
+              "desc": "With tomato aioli",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Polenta",
+              "desc": "Crispy polenta sticks, creamy gorgonzola sauce",
+              "price": {
+                "amount": "13.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Arancini (3pcs)",
+              "desc": "House made rice balls with bolognese, fior di latte, peas & parmesan, sweet mustard sauce",
+              "price": {
+                "amount": "19.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Crocchette (Veg) (3pcs)",
+              "desc": "Potato and smoked scamorza cheese",
+              "price": {
+                "amount": "17.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Polpette (3pcs)",
+              "desc": "House made meatballs served with napoli sauce",
+              "price": {
+                "amount": "17.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Focaccia Garlic (Veg, VG)",
+              "desc": "Classic Italian focaccia with EVO oil, herbs and sea salt",
+              "price": {
+                "amount": "18.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Focaccia Bruschetta",
+              "desc": "Pesto, fior di latte, cherry tomatoes, olives, basil, balsamic glaze",
+              "price": {
+                "amount": "24.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Beef Sliders (2pcs)",
+              "desc": "Toasted brioche bun, tasty cheese, tomato aioli",
+              "price": {
+                "amount": "17.2"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Antipasto Platter (Serves 2)",
+              "desc": "Selection of premium Italian cured meats, cheeses, olives & marinated accompaniments with crusty bread",
+              "price": {
+                "amount": "45"
+              }
+            }
           ]
         },
         {
           "title": "Bambini - For The Little Ones",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Penne Pomodoro (Pasta)", "desc": "With fresh napoli sauce", "price": {"amount": "17.5"}},
-            {"type": "item", "name": "Margherita Pizza", "desc": "Tomato, mozzarella", "price": {"amount": "18.9"}},
-            {"type": "item", "name": "Cotoletta", "desc": "Chicken schnitzel & chips", "price": {"amount": "20.5"}}
+            {
+              "type": "item",
+              "name": "Penne Pomodoro",
+              "desc": "Pasta with fresh napoli sauce",
+              "price": {
+                "amount": "17.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Margherita Pizza",
+              "desc": "Tomato, fior di latte",
+              "price": {
+                "amount": "19.2"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Cotoletta",
+              "desc": "Chicken schnitzel & chips",
+              "price": {
+                "amount": "20.7"
+              }
+            }
           ]
         },
         {
           "title": "Insalate - Salads",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Classic", "desc": "Rocket, pear, parmesan shavings, honey glaze, walnuts", "price": {"amount": "19.9"}},
-            {"type": "item", "name": "Bufala (Mozzarella Cheese) (Veg)", "desc": "Baby spinach, pumpkin, beetroot, toasted hazelnuts with a sweet mustard dressing, balsamic glaze", "price": {"amount": "28.9"}},
-            {"type": "item", "name": "Pollo", "desc": "Grilled chicken, avocado, cucumber, cherry tomatoes, mixed leaf salad & mustard dressing", "price": {"amount": "28.9"}},
-            {"type": "item", "name": "Smoked Salmon Avocado", "desc": "Goat cheese, salad, balsamic reduction", "price": {"amount": "28.9"}}
+            {
+              "type": "item",
+              "name": "Classic (Veg)",
+              "desc": "Rocket, pear, parmesan shavings, honey glaze, walnuts",
+              "price": {
+                "amount": "20.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Caprese (Veg, GF)",
+              "desc": "Bufala mozzarella, tomato, basil, balsamic glaze",
+              "price": {
+                "amount": "23"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pollo",
+              "desc": "Grilled chicken, avocado, cucumber, cherry tomatoes, mixed leaf salad & mustard dressing",
+              "price": {
+                "amount": "29.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Burrata, Melon and Prosciutto",
+              "desc": "Creamy burrata, melon, prosciutto, balsamic reduction",
+              "price": {
+                "amount": "30"
+              }
+            }
           ]
         },
         {
           "title": "Pasta",
           "column": 2,
           "items": [
-            {"type": "item", "name": "Beef Tortellone", "desc": "Tuscan garlic cream sauce, spinach, cacio chilli cheese", "price": {"amount": "28.9"}},
-            {"type": "item", "name": "Pasta Piselli", "desc": "Spaghetti, aglio e olio, peas, bacon, toasted breadcrumbs", "price": {"amount": "25.9"}},
-            {"type": "item", "name": "Penne Claretta", "desc": "Mixed seasonal vegetables, napoli sauce & parmesan", "price": {"amount": "25.7"}},
-            {"type": "item", "name": "Gnocchi", "desc": "House made gnocchi with burnt butter and sage", "price": {"amount": "27.9"}},
-            {"type": "item", "name": "Pasta con Broccoli e Salsiccia", "desc": "Fusilli pasta with broccoli and italian sausage, pecorino cheese", "price": {"amount": "27.5"}},
-            {"type": "item", "name": "Frutti Di Mare", "desc": "Selection of fresh seafood, garlic, chilli, cherry tomatoes, extra virgin olive oil", "price": {"amount": "37.9"}},
-            {"type": "item", "name": "Fettucine Con Pollo e Funghi", "desc": "Chicken, mushrooms, parmesan with a creamy sauce", "price": {"amount": "27.9"}},
-            {"type": "item", "name": "Lasagna Alla Bolognese", "desc": "House made lasagna, ragu", "price": {"amount": "27.9"}},
-            {"type": "item", "name": "Mushroom Risotto", "desc": "Porcini mushroom finished with truffle oil", "price": {"amount": "29.5"}},
-            {"type": "item", "name": "Seafood Risotto", "desc": "Selection of fresh seafood finished with olive oil and parsley", "price": {"amount": "37.9"}},
-            {"type": "note", "lines": ["Napoli & Bolognese Sauce Available"]},
-            {"type": "note", "lines": ["Vegan & Gluten Free Options Available"]}
+            {
+              "type": "item",
+              "name": "Spaghetti Aglio e Olio (Veg)",
+              "desc": "Garlic, EVO oil, chilli, fresh toasted breadcrumbs",
+              "price": {
+                "amount": "23"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pasta Alla Vodka (Veg)",
+              "desc": "Paccheri pasta in a creamy vodka sauce with onion, garlic and toasted breadcrumbs",
+              "price": {
+                "amount": "27"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pasta Norma (Veg)",
+              "desc": "Penne pasta, roasted eggplant, sweet onion, garlic, creamy ricotta",
+              "price": {
+                "amount": "24"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Spaghetti Carbonara",
+              "desc": "Pecorino cheese, parmesan, pancetta, cracked black pepper",
+              "price": {
+                "amount": "27"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Beef Ravioli Tuscan Style",
+              "desc": "Tuscan garlic cream sauce, spinach, cacio chilli cheese",
+              "price": {
+                "amount": "27.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pesto",
+              "desc": "Fettuccine pasta, pesto, shaved parmigiano cheese, crispy prosciutto",
+              "price": {
+                "amount": "26"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Fettuccine Con Pollo e Funghi",
+              "desc": "Chicken, mushrooms and parmesan with a creamy sauce",
+              "price": {
+                "amount": "28.2"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pasta Con Broccoli e Salsiccia",
+              "desc": "Orecchiette pasta, broccoli, Italian sausage, pecorino cheese, parsley, chilli",
+              "price": {
+                "amount": "27.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Gnocchi (Veg)",
+              "desc": "House made gnocchi, roasted pumpkin puree",
+              "price": {
+                "amount": "28"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Lasagna Alla Bolognese",
+              "desc": "House made lasagna, bolognese sauce",
+              "price": {
+                "amount": "28.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Chilli Prawn Pasta",
+              "desc": "Fettuccine, garlic, chilli, prawns, cherry tomatoes, fresh basil",
+              "price": {
+                "amount": "31.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Frutti Di Mare",
+              "desc": "Fettuccine, selection of fresh seafood, garlic, chilli, cherry tomatoes, EVO oil",
+              "price": {
+                "amount": "38.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Mushroom Risotto (Veg, GF)",
+              "desc": "Porcini mushroom finished with truffle oil",
+              "price": {
+                "amount": "29.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Seafood Risotto (GF)",
+              "desc": "Selection of fresh seafood finished with olive oil & parsley",
+              "price": {
+                "amount": "38.9"
+              }
+            },
+            {
+              "type": "note",
+              "lines": [
+                "Napoli and Bolognese Sauce Available"
+              ]
+            },
+            {
+              "type": "addon",
+              "text": "Vegan & Gluten Free (add)",
+              "price": "4.5"
+            }
           ]
         },
         {
           "title": "Secondi - Mains",
           "column": 2,
           "items": [
-            {"type": "item", "name": "Prosciutto Wrapped Chicken", "desc": "Filled with cheese and sage, served on potato and carrot mash, with asparagus", "price": {"amount": "35.9"}},
-            {"type": "item", "name": "Lamb Cutlets", "desc": "Grilled lamb, roasted potatoes, asparagus, mint and rosemary dressing", "price": {"amount": "42.9"}},
-            {"type": "item", "name": "Beef Burger (Italian Style)", "desc": "Beef, lettuce, grilled capsicum, onion, mozzarella cheese on a toasted brioche bun with pier 71 chips & tomato aioli", "price": {"amount": "27.9"}},
-            {"type": "item", "name": "Calamari Fritti", "desc": "With aioli & rocket", "price": {"amount": "28.9"}},
-            {"type": "item", "name": "Chicken Parmigiano", "desc": "Crumbed chicken breast, napoli sauce, fresh mozzarella, parmesan with pier 71 chips & salad", "price": {"amount": "29.5"}},
-            {"type": "item", "name": "Salmon (Baked Salmon)", "desc": "Roasted potatoes, asparagus, yoghurt fetta dill dressing", "price": {"amount": "42.5"}}
+            {
+              "type": "item",
+              "name": "Chicken Involtini",
+              "desc": "Crumbed chicken breast filled with mozzarella, capsicum and spinach, house made sweet mustard sauce, salad",
+              "price": {
+                "amount": "29"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Beef Burger (Italian Style)",
+              "desc": "Beef, lettuce, grilled capsicum, onion, cheese on a toasted brioche bun with Pier 71 Chips and tomato aioli sauce",
+              "price": {
+                "amount": "28.2"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Calamari Fritti",
+              "desc": "With aioli and rocket",
+              "price": {
+                "amount": "29.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Chicken Parmigiano",
+              "desc": "Crumbed chicken breast, napoli sauce, fresh fior di latte, parmesan with Pier 71 chips and salad",
+              "price": {
+                "amount": "29.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Salmon (Baked Salmon)",
+              "desc": "Roasted potatoes, green beans, mango, coriander and chilli salsa",
+              "price": {
+                "amount": "42.9"
+              }
+            }
           ]
         },
         {
           "title": "Pizza Bar",
           "column": 3,
           "items": [
-            {"type": "item", "name": "Margherita", "desc": "Tomato mozzarella, basil & extra virgin olive oil", "price": {"amount": "20.5"}},
-            {"type": "item", "name": "Capricciosa", "desc": "Tomato, mozzarella, leg ham, olives, artichokes & mushrooms", "price": {"amount": "27.9"}},
-            {"type": "item", "name": "Calabrese", "desc": "Tomato, mozzarella, hot salame & olives", "price": {"amount": "25.5"}},
-            {"type": "item", "name": "Pesto Caprese", "desc": "Pesto, mozzarella, tomato, basil, balsamic glaze", "price": {"amount": "25.9"}},
-            {"type": "item", "name": "Napoletana", "desc": "Tomato, mozzarella, olives, anchovies, garlic & oregano", "price": {"amount": "25.5"}},
-            {"type": "item", "name": "Gina", "desc": "Potato, mushroom, fior di latte, onion, rosemary, truffle oil", "price": {"amount": "27.5"}},
-            {"type": "item", "name": "Pier 71", "desc": "Sausage, mushrooms, tomato, mozzarella, truffle oil, shaved parmesan & parsley", "price": {"amount": "28.9"}},
-            {"type": "item", "name": "Dolce Vita", "desc": "Fig jam, prosciutto, goats cheese", "price": {"amount": "27.9"}},
-            {"type": "item", "name": "Sofia Lauren", "desc": "Hot salame, roasted capsicum, onions, olives, fior di latte, honey", "price": {"amount": "27.9"}},
-            {"type": "item", "name": "Lauretta", "desc": "Tomato, mozzarella, grilled pumpkin, zucchini, gorgonzola, onions & balsamic glaze", "price": {"amount": "26.9"}},
-            {"type": "item", "name": "Pera Bella", "desc": "Fior di latte, fresh pear, prosciutto, gorgonzola, honey", "price": {"amount": "28.9"}},
-            {"type": "item", "name": "Funghi (Mushroom)", "desc": "Mushroom cream base, fresh mushrooms, parmesan shavings, rocket & truffle oil", "price": {"amount": "27.5"}},
-            {"type": "item", "name": "Mamma Mia", "desc": "Tomato, mozzarella, sausage, leg ham, hot salame, chilli", "price": {"amount": "29.9"}},
-            {"type": "item", "name": "Chilli Prawns", "desc": "Tomato, mozzarella, prawns, cherry tomato, garlic, chilli, oregano & rocket", "price": {"amount": "29.9"}},
-            {"type": "item", "name": "Prosciutto", "desc": "Tomato, prosciutto, rocket, parmesan & fresh artisan bufala cheese", "price": {"amount": "29.9"}},
-            {"type": "item", "name": "Salmone", "desc": "Smoked salmon, goats cheese, onions, capers", "price": {"amount": "29.9"}},
-            {"type": "item", "name": "Gluten Free Bases Available", "price": {"amount": "7"}},
-            {"type": "note", "lines": ["Dairy Free Options Available"]}
+            {
+              "type": "item",
+              "name": "Margherita (Veg)",
+              "desc": "(B. 1889 Named after the Queen of Italy) Tomato, fior di latte, basil & EVO oil",
+              "price": {
+                "amount": "20.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Verde (Veg)",
+              "desc": "Pesto, fior di latte, asparagus, zucchini, sweet peas, feta, basil, balsamic glaze",
+              "price": {
+                "amount": "27"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Capricciosa",
+              "desc": "Tomato, fior di latte, leg ham, olives, artichokes, mushroom",
+              "price": {
+                "amount": "28.2"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Calabrese",
+              "desc": "Tomato, fior di latte, hot salame, olives",
+              "price": {
+                "amount": "25.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pesto Caprese (Veg)",
+              "desc": "Pesto, fior di latte, tomato, basil, balsamic glaze",
+              "price": {
+                "amount": "25.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Napoletana",
+              "desc": "Tomato, fior di latte, olives, anchovies, garlic, oregano",
+              "price": {
+                "amount": "25.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Gina",
+              "desc": "Potato, mushroom, fior di latte, onion, rosemary, truffle oil",
+              "price": {
+                "amount": "27.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pier 71",
+              "desc": "Sausage, mushrooms, tomato, fior di latte, truffle oil, shaved parmesan, parsley",
+              "price": {
+                "amount": "29.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Dolce Vita",
+              "desc": "Fig jam, prosciutto, goats cheese",
+              "price": {
+                "amount": "28.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Sofia Loren (Hot and Sweet)",
+              "desc": "Hot salame, roasted capsicum, onions, olives, fior di latte, honey",
+              "price": {
+                "amount": "28.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Lauretta (Veg)",
+              "desc": "Tomato, fior di latte, grilled pumpkin, zucchini, gorgonzola, onions, balsamic glaze",
+              "price": {
+                "amount": "27.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pera Bella",
+              "desc": "Fior di latte, fresh pear, prosciutto, gorgonzola, honey",
+              "price": {
+                "amount": "28.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Funghi (Mushroom) (Veg)",
+              "desc": "Mushroom cream base, fior di latte, fresh mushrooms, parmesan shavings, rocket, truffle oil",
+              "price": {
+                "amount": "27.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Mamma Mia (Meat)",
+              "desc": "Tomato, fior di latte, sausage, leg ham, hot salame, chilli",
+              "price": {
+                "amount": "29.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Chilli Prawns",
+              "desc": "Tomato, fior di latte, prawns, cherry tomato, garlic, chilli, oregano, rocket",
+              "price": {
+                "amount": "29.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Prosciutto",
+              "desc": "Tomato, fresh bufala mozzarella, prosciutto, rocket, parmesan",
+              "price": {
+                "amount": "30.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Gluten Free Base (add)",
+              "price": {
+                "amount": "8"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Vegan Cheese (add)",
+              "price": {
+                "amount": "4.5"
+              }
+            }
           ]
         }
       ]
     },
-
     {
       "title": "",
       "columns": 2,
@@ -104,44 +484,201 @@
           "title": "Colazione // Breakfast (Weekends Only)",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Toast", "desc": "With your choice of jam, nutella, butter or vegemite", "price": {"amount": "9.9"}},
-            {"type": "item", "name": "Egg & Bacon Muffin / Sandwich", "desc": "Fried egg, bacon with aioli sauce", "price": {"amount": "11.9"}},
-            {"type": "item", "name": "Two Eggs on Sourdough Toast", "desc": "Poached, scrambled or fried", "price": {"amount": "15.9"}},
-            {"type": "item", "name": "Granola", "desc": "Yoghurt, chia seeds & mixed berries", "price": {"amount": "18.9"}},
-            {"type": "item", "name": "Smashed Avocado", "desc": "Sourdough toast with goats cheese, mild chilli, on a bed of rocket", "price": {"amount": "22.9"}},
-            {"type": "addon", "text": "+ Poached eggs", "price": "2.9"},
-            {"type": "item", "name": "Eggs Benedict", "desc": "Two poached eggs, hollandaise sauce & your choice of ham or bacon on sourdough toast", "price": {"amount": "20.9"}},
-            {"type": "item", "name": "Eggs Florentine", "desc": "Two poached eggs with spinach, smoked salmon & hollandaise sauce on sourdough toast", "price": {"amount": "22.9"}},
-            {"type": "item", "name": "Veggie Breaky", "desc": "Sourdough toast with mushrooms, cherry tomatoes, spinach, avocado", "price": {"amount": "22.9"}},
-            {"type": "addon", "text": "+ Poached eggs", "price": "2.9"},
-            {"type": "item", "name": "Pancakes", "desc": "House made with your choice of strawberries, mixed berries or nutella, drizzled with maple syrup", "price": {"amount": "20.9"}},
-            {"type": "item", "name": "Italian Omelette", "desc": "Ham, cheese & tomato with sourdough bread", "price": {"amount": "21.9"}},
-            {"type": "item", "name": "Pier 71 Big Breakfast", "desc": "Eggs made your way on toasted sourdough with bacon, italian sausage, mushrooms, cherry tomatoes and spinach", "price": {"amount": "24.9"}},
-            {"type": "subheading", "text": "Extras"},
-            {"type": "note", "lines": ["- Bacon, sausage, ham | $5.9"]},
-            {"type": "note", "lines": ["- Cherry tomatoes, mushrooms, spinach | $4.9"]},
-            {"type": "note", "lines": ["- Salmon | $6.9"]},
-            {"type": "note", "lines": ["- Egg | $2.9"]},
-            {"type": "note", "lines": ["- Extra sauce | $1"]}
+            {
+              "type": "item",
+              "name": "Toast",
+              "desc": "With your choice of jam, nutella, butter or vegemite",
+              "price": {
+                "amount": "9.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Egg & Bacon Muffin / Sandwich",
+              "desc": "Fried egg, bacon with aioli sauce",
+              "price": {
+                "amount": "11.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Two Eggs on Sourdough Toast",
+              "desc": "Poached, scrambled or fried",
+              "price": {
+                "amount": "15.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Granola",
+              "desc": "Yoghurt, chia seeds & mixed berries",
+              "price": {
+                "amount": "18.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Smashed Avocado",
+              "desc": "Sourdough toast with goats cheese, mild chilli, on a bed of rocket",
+              "price": {
+                "amount": "22.9"
+              }
+            },
+            {
+              "type": "addon",
+              "text": "+ Poached eggs",
+              "price": "2.9"
+            },
+            {
+              "type": "item",
+              "name": "Eggs Benedict",
+              "desc": "Two poached eggs, hollandaise sauce & your choice of ham or bacon on sourdough toast",
+              "price": {
+                "amount": "20.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Eggs Florentine",
+              "desc": "Two poached eggs with spinach, smoked salmon & hollandaise sauce on sourdough toast",
+              "price": {
+                "amount": "22.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Veggie Breaky",
+              "desc": "Sourdough toast with mushrooms, cherry tomatoes, spinach, avocado",
+              "price": {
+                "amount": "22.9"
+              }
+            },
+            {
+              "type": "addon",
+              "text": "+ Poached eggs",
+              "price": "2.9"
+            },
+            {
+              "type": "item",
+              "name": "Pancakes",
+              "desc": "House made with your choice of strawberries, mixed berries or nutella, drizzled with maple syrup",
+              "price": {
+                "amount": "20.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Italian Omelette",
+              "desc": "Ham, cheese & tomato with sourdough bread",
+              "price": {
+                "amount": "21.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Pier 71 Big Breakfast",
+              "desc": "Eggs made your way on toasted sourdough with bacon, italian sausage, mushrooms, cherry tomatoes and spinach",
+              "price": {
+                "amount": "24.9"
+              }
+            },
+            {
+              "type": "subheading",
+              "text": "Extras"
+            },
+            {
+              "type": "note",
+              "lines": [
+                "- Bacon, sausage, ham | $5.9"
+              ]
+            },
+            {
+              "type": "note",
+              "lines": [
+                "- Cherry tomatoes, mushrooms, spinach | $4.9"
+              ]
+            },
+            {
+              "type": "note",
+              "lines": [
+                "- Salmon | $6.9"
+              ]
+            },
+            {
+              "type": "note",
+              "lines": [
+                "- Egg | $2.9"
+              ]
+            },
+            {
+              "type": "note",
+              "lines": [
+                "- Extra sauce | $1"
+              ]
+            }
           ]
         },
         {
           "title": "Dolci (Desserts)",
           "column": 2,
           "items": [
-            {"type": "item", "name": "Ricotta & Pear", "desc": "House made pear & ricotta mousse cake", "price": {"amount": "13.5"}},
-            {"type": "item", "name": "Panna Cotta", "desc": "Classic italian dessert; silky smooth vanilla bean cream", "price": {"amount": "12.9"}},
-            {"type": "item", "name": "Cannoncini", "desc": "Waffle shell filled with house made vanilla custard", "price": {"amount": "5.5"}},
-            {"type": "item", "name": "Tiramisu", "desc": "House made italian sponge cake soaked in coffee, marscapone cream, flavoured with cocoa", "price": {"amount": "12.9"}},
-            {"type": "item", "name": "Nutella Pizza", "desc": "With strawberries and vanilla ice cream", "price": {"amount": "28"}},
-            {"type": "item", "name": "Affogato", "desc": "With ice cream & a shot of espresso", "price": {"amount": "8.5"}},
-            {"type": "addon", "text": "+ Frangelico / Liqueur", "price": "13"},
-            {"type": "item", "name": "Assorted Cakes (Gluten free options)", "desc": "See display fridge in-store"}
+            {
+              "type": "item",
+              "name": "Ricotta & Pear",
+              "desc": "House made ricotta and pear mousse cake",
+              "price": {
+                "amount": "13.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Panna Cotta (Mango or Raspberry)",
+              "desc": "Classic Italian dessert, smooth vanilla bean cream",
+              "price": {
+                "amount": "13"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Cannoncini",
+              "desc": "Waffle shell filled with house made vanilla custard",
+              "price": {
+                "amount": "5.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Tiramisu",
+              "desc": "House made Italian sponge cake soaked in coffee, mascarpone cream flavoured with cocoa",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Nutella Pizza",
+              "desc": "With strawberries and vanilla ice cream",
+              "price": {
+                "amount": "29"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Affogato",
+              "desc": "With ice cream and shot of espresso",
+              "price": {
+                "amount": "8.5"
+              }
+            },
+            {
+              "type": "addon",
+              "text": "+ Frangelico",
+              "price": "13.5"
+            }
           ]
         }
       ]
     },
-
     {
       "title": "Drinks",
       "columns": 3,
@@ -150,132 +687,793 @@
           "title": "Beer & Cider",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Peroni Nastro Azzuro", "desc": "5% ABV - Italy", "price": {"amount": "10.5"}},
-            {"type": "item", "name": "Moretti", "desc": "4.6% ABV - Italy", "price": {"amount": "10.9"}},
-            {"type": "item", "name": "Peroni Doppio Malto Riserva (500ml)", "desc": "6.6% ABV - Italy", "price": {"amount": "12.5"}},
-            {"type": "item", "name": "Corona", "desc": "4.5% ABV - Mexico", "price": {"amount": "11.5"}},
-            {"type": "item", "name": "Asahi", "desc": "5% ABV - Japan", "price": {"amount": "10.5"}},
-            {"type": "item", "name": "Cascade Premium Light", "desc": "2.6% ABV - TAS", "price": {"amount": "10.5"}},
-            {"type": "item", "name": "Carlton Draught", "desc": "4.6% ABV - Victoria", "price": {"amount": "10.5"}},
-            {"type": "item", "name": "Mr. Little Apple Cider", "desc": "4.9 ABV - Victoria", "price": {"amount": "12.5"}},
-            {"type": "item", "name": "Ginger Kid Ginger Beer", "desc": "4.5% ABV - Victoria", "price": {"amount": "12.5"}}
+            {
+              "type": "item",
+              "name": "Nastro Azzurro",
+              "desc": "5% ABV - Italy",
+              "price": {
+                "amount": "10.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Moretti",
+              "desc": "4.6% ABV - Italy",
+              "price": {
+                "amount": "10.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Peroni Doppio Malto Riserva",
+              "desc": "6.6% ABV - Italy",
+              "price": {
+                "amount": "12.8"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Corona",
+              "desc": "4.5% ABV - Mexico",
+              "price": {
+                "amount": "11.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Asahi",
+              "desc": "5% ABV - Japan",
+              "price": {
+                "amount": "10.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Cascade Premium Light",
+              "desc": "2.6% ABV - Hobart, TAS",
+              "price": {
+                "amount": "10.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Carlton Draught",
+              "desc": "4.6% ABV - VIC",
+              "price": {
+                "amount": "10.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Mt Little Apple Cider",
+              "desc": "4.9% ABV - Mornington Peninsula, VIC",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Ginger Kid Ginger Beer",
+              "desc": "4.5% ABV - Harcourt Valley, VIC",
+              "price": {
+                "amount": "12.7"
+              }
+            }
           ]
         },
         {
           "title": "Vino - Wine",
           "column": 2,
           "items": [
-            {"type": "subheading", "text": "Sparkling"},
-            {"type": "item", "name": "Nao Nis Prosecco - Veneto, ITA", "price": {"lines": [{"label": "Bottle", "amount": "49"}]}},
-            {"type": "item", "name": "Sevita Prosecco - King Valley, VIC", "price": {"lines": [{"label": "Glass", "amount": "13.5"}, {"label": "Bottle", "amount": "45"}]}},
-            {"type": "item", "name": "Patritti Lightly Sparkling Pink Moscato - McLaren Vale, SA", "price": {"lines": [{"label": "Glass", "amount": "13.5"}, {"label": "Bottle", "amount": "45"}]}},
-            {"type": "item", "name": "Lavoro Sparkling Shiraz - McLaren Vale, SA", "price": {"lines": [{"label": "Bottle", "amount": "55"}]}},
-            {"type": "item", "name": "Gremillet Brut -Champagne - FRA", "price": {"lines": [{"label": "Bottle", "amount": "99"}]}},
-            {"type": "spacer"},
-            {"type": "subheading", "text": "White"},
-            {"type": "item", "name": "Tohu Sauv Blanc - Marlborough, NZ", "price": {"lines": [{"label": "Glass", "amount": "14"}, {"label": "Bottle", "amount": "65"}]}},
-            {"type": "item", "name": "Sorby Adams Pinot Grigio - Eden Valley, SA", "price": {"lines": [{"label": "Glass", "amount": "14"}, {"label": "Bottle", "amount": "65"}]}},
-            {"type": "item", "name": "Stonehaven Reserve Chardonnay - Padthaway, SA", "price": {"lines": [{"label": "Glass", "amount": "14"}, {"label": "Bottle", "amount": "65"}]}},
-            {"type": "item", "name": "Gudilly Fiano - Clare Valley, SA", "price": {"lines": [{"label": "Bottle", "amount": "65"}]}},
-            {"type": "item", "name": "Briar Ridge Pinot Gris - Wrattonbully, SA / Orange, NSW", "price": {"lines": [{"label": "Bottle", "amount": "65"}]}},
-            {"type": "item", "name": "Geoff Merrill Chardonnay - McLaren Vale, SA", "price": {"lines": [{"label": "Bottle", "amount": "82"}]}},
-            {"type": "item", "name": "Clairault Chardonnay - Margaret River, WA", "price": {"lines": [{"label": "Bottle", "amount": "75"}]}},
-            {"type": "spacer"},
-            {"type": "subheading", "text": "Rosé & Reds"},
-            {"type": "item", "name": "Gudilly Rose - Adelaide, SA", "price": {"lines": [{"label": "Glass", "amount": "13.5"}, {"label": "Bottle", "amount": "55"}]}},
-            {"type": "item", "name": "Hare Raising Pinot Noir - Yarra Valley, VIC", "price": {"lines": [{"label": "Glass", "amount": "15"}, {"label": "Bottle", "amount": "55"}]}},
-            {"type": "item", "name": "Ceravolo Sangiovese - Adelaide Hills, SA", "price": {"lines": [{"label": "Glass", "amount": "13.5"}, {"label": "Bottle", "amount": "55"}]}},
-            {"type": "item", "name": "Archery Road Shiraz - Barossa Valley, SA", "price": {"lines": [{"label": "Glass", "amount": "14"}, {"label": "Bottle", "amount": "60"}]}},
-            {"type": "item", "name": "Thomas Goss Cab Sauv - McLaren Vale, SA", "price": {"lines": [{"label": "Bottle", "amount": "58"}]}},
-            {"type": "item", "name": "Etrusca Chianti DOCG - ITA", "price": {"lines": [{"label": "Bottle", "amount": "60"}]}},
-            {"type": "item", "name": "Hatch 2022 Shiraz - Barossa Valley, SA", "price": {"lines": [{"label": "Bottle", "amount": "80"}]}},
-            {"type": "item", "name": "Hickinbotham Pinot Noir - Dromana, VIC", "price": {"lines": [{"label": "Bottle", "amount": "78"}]}},
-            {"type": "item", "name": "Carlin de Paolo 2020 Barbera Superiore DOCG - ITA", "price": {"lines": [{"label": "Bottle", "amount": "75"}]}},
-            {"type": "item", "name": "Briar Ridge 2022 Bordeaux Blend - Wrattonbully, SA", "price": {"lines": [{"label": "Bottle", "amount": "78"}]}},
-            {"type": "item", "name": "Sorby Adams Jutland 2022 GSM - Barossa Valley, SA", "price": {"lines": [{"label": "Bottle", "amount": "70"}]}}
+            {
+              "type": "subheading",
+              "text": "Sparkling"
+            },
+            {
+              "type": "item",
+              "name": "Nao Nis - Veneto, Italy",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "49"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Sevita Prosecco - King Valley, VIC",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "14"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "49"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Patritti Lightly Sparkling Pink Moscato - McLaren Vale, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "14"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "49"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Lavoro Sparkling Shiraz - McLaren Vale, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "60"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Gremillet Brut - Champagne, France",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "99"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "type": "subheading",
+              "text": "White"
+            },
+            {
+              "type": "item",
+              "name": "Tohu Sauv Blanc - Marlborough, NZ",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "14.5"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "65"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Sorby Adams Pinot Grigio - Eden Valley, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "14.5"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "65"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Stonehaven Reserve Chardonnay - Padthaway, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "14.5"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "65"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Patritti Vermentino - Adelaide Hills, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "65"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Briar Ridge Pinot Gris - Wrattonbully, SA / Orange, NSW",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "65"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "One Lovely Day Riesling - Clare Valley, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "60"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "type": "subheading",
+              "text": "Rosé & Reds"
+            },
+            {
+              "type": "item",
+              "name": "Gudilly Rose - Adelaide, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "13.8"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "55"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Hare Raising Pinot Noir - Yarra Valley, VIC",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "15"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "55"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Ceravolo Sangiovese - Adelaide Hills, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "13.8"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "55"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Archery Road Shiraz - Barossa Valley, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Glass",
+                    "amount": "14.5"
+                  },
+                  {
+                    "label": "Bottle",
+                    "amount": "65"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Thomas Goss Cab Sauv - McLaren Vale, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "58"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Etrusca Chianti DOCG - Italy",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "60"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Hatch 2022 Shiraz - Barossa Valley, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "80"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Hickinbotham Pinot Noir - Dromana, VIC",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "78"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Carlin de Paolo 2020 Barbera Superiore DOCG - Italy",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "75"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Briar Ridge 2022 Bordeaux Blend - Wrattonbully, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "78"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "item",
+              "name": "Sorby Adams Jutland 2022 GSM - Barossa Valley, SA",
+              "price": {
+                "lines": [
+                  {
+                    "label": "Bottle",
+                    "amount": "70"
+                  }
+                ]
+              }
+            }
           ]
         },
         {
           "title": "Cocktails",
           "column": 3,
           "items": [
-            {"type": "item", "name": "Passionfruit Martini", "desc": "Vanilla vodka, passionfruit, passoa & lime juice", "price": {"amount": "22.5"}},
-            {"type": "item", "name": "Espresso Martini", "desc": "Vodka, galliano ristretto, fresh espresso", "price": {"amount": "22.5"}},
-            {"type": "item", "name": "Negroni", "desc": "Gin, campari, cinzano rosso, orange twist", "price": {"amount": "23.5"}},
-            {"type": "item", "name": "Sours", "desc": "Amaretto, Frangelico, Whisky", "price": {"amount": "20"}},
-            {"type": "item", "name": "Margarita", "desc": "Tequila, cointreau, Lime", "price": {"amount": "20"}}
+            {
+              "type": "item",
+              "name": "Passionfruit Martini",
+              "desc": "Vanilla vodka, passionfruit, Passoa, lime, lime garnish",
+              "price": {
+                "amount": "22.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Espresso Martini",
+              "desc": "Vodka, Galliano Ristretto, fresh espresso",
+              "price": {
+                "amount": "22.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Negroni",
+              "desc": "Campari, Cinzano Rosso, gin, orange garnish",
+              "price": {
+                "amount": "23.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Sours",
+              "desc": "Amaretto, Frangelico, Whisky",
+              "price": {
+                "amount": "20.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Margarita",
+              "desc": "Tequila, Cointreau and lime",
+              "price": {
+                "amount": "20.5"
+              }
+            },
+            {
+              "type": "addon",
+              "text": "+ Chilli",
+              "price": "0.50"
+            }
           ]
         },
         {
           "title": "Cold Drinks",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Juices", "desc": "Orange, apple", "price": {"amount": "6.2"}},
-            {"type": "item", "name": "Iced Coffee // Iced Chocolate", "price": {"amount": "6.8"}},
-            {"type": "item", "name": "Milkshakes", "desc": "Chocolate, vanilla, caramel, banana, strawberry", "price": {"amount": "7.5"}},
-            {"type": "item", "name": "Coke, Coke Zero, Sprite (330ml Bottle)", "price": {"amount": "5.7"}},
-            {"type": "item", "name": "Lemon Lime & Bitters", "price": {"amount": "6.7"}},
-            {"type": "item", "name": "Raspberry Lemonade", "price": {"amount": "5.7"}}
+            {
+              "type": "item",
+              "name": "Juices",
+              "desc": "Orange, apple",
+              "price": {
+                "amount": "6.4"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Iced Coffee // Iced Chocolate",
+              "price": {
+                "amount": "6.9"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Milkshakes",
+              "desc": "Chocolate, vanilla, strawberry",
+              "price": {
+                "amount": "7.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Coke, Coke Zero, Fanta (330ml)",
+              "price": {
+                "amount": "5.8"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Lemon, Lime & Bitters",
+              "price": {
+                "amount": "6.8"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Raspberry Lemonade",
+              "price": {
+                "amount": "5.8"
+              }
+            }
           ]
         },
         {
           "title": "Whiskey",
           "column": 2,
           "items": [
-            {"type": "item", "name": "Makers Mark", "desc": "Bourbon Whiskey - USA", "price": {"amount": "13.5"}},
-            {"type": "item", "name": "Knob Creek 9YO", "desc": "Rye Bourbon Whiskey - USA", "price": {"amount": "13.5"}},
-            {"type": "item", "name": "Highland 12", "desc": "Single malt - SCOTLAND", "price": {"amount": "14.5"}},
-            {"type": "item", "name": "Ned Blended", "desc": "Malt Whiskey - VIC", "price": {"amount": "13.5"}},
-            {"type": "item", "name": "Laphroaig 10", "desc": "Single malt scotch whisky", "price": {"amount": "14.5"}},
-            {"type": "item", "name": "Basil Hayden’s", "desc": "Bourbon Whiskey - USA", "price": {"amount": "13.5"}}
+            {
+              "type": "item",
+              "name": "Makers Mark",
+              "desc": "Bourbon Whiskey - USA",
+              "price": {
+                "amount": "13.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Knob Creek 9YO",
+              "desc": "Rye Bourbon Whiskey - USA",
+              "price": {
+                "amount": "13.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Highland 12",
+              "desc": "Single malt - SCOTLAND",
+              "price": {
+                "amount": "14.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Ned Blended",
+              "desc": "Malt Whiskey - VIC",
+              "price": {
+                "amount": "13.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Laphroaig 10",
+              "desc": "Single malt scotch whisky",
+              "price": {
+                "amount": "14.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Basil Hayden’s",
+              "desc": "Bourbon Whiskey - USA",
+              "price": {
+                "amount": "13.7"
+              }
+            }
           ]
         },
         {
           "title": "Spritz Bar",
           "column": 3,
           "items": [
-            {"type": "item", "name": "Strawberry Spritz", "desc": "Aperol, strawberry, lime, prosecco, mint", "price": {"amount": "20.5"}},
-            {"type": "item", "name": "Elderflower Lychee Spritz", "desc": "Elderflower, lychee, lemon, prosecco, soda, mint", "price": {"amount": "20.5"}},
-            {"type": "item", "name": "Limoncello Spritz", "desc": "Limoncello, prosecco, dash of soda", "price": {"amount": "20.5"}},
-            {"type": "item", "name": "Cherry Spritz", "desc": "Cherry, lime, prosecco, mint", "price": {"amount": "20.5"}},
-            {"type": "item", "name": "Grapefruit Spritz", "desc": "Grapefruit pink moscato, elderflower, soda, mint", "price": {"amount": "20.5"}},
-            {"type": "item", "name": "Amaretto Spritz", "desc": "Amaretto, vanilla, soda, prosecco, cherry, mint", "price": {"amount": "20.5"}},
-            {"type": "item", "name": "Aperol Spritz", "desc": "Prosecco, aperol, soda, orange", "price": {"amount": "20.5"}}
+            {
+              "type": "item",
+              "name": "Strawberry Spritz",
+              "desc": "Aperol, strawberry, lime, prosecco, mint garnish",
+              "price": {
+                "amount": "20.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Elderflower Lychee Spritz",
+              "desc": "Elderflower, lychee, lemon, prosecco, soda, mint garnish",
+              "price": {
+                "amount": "20.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Limoncello Spritz",
+              "desc": "Limoncello, lemon, sugar, prosecco, mint garnish",
+              "price": {
+                "amount": "20.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Orange Passionfruit Spritz",
+              "desc": "Passionfruit puree, pink moscato, lime, orange, mint garnish",
+              "price": {
+                "amount": "20.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Grapefruit Spritz",
+              "desc": "Grapefruit, pink moscato, elderflower, soda, grapefruit slice, mint garnish",
+              "price": {
+                "amount": "20.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Amaretto Spritz",
+              "desc": "Amaretto, vanilla, soda, prosecco, cherry, mint garnish",
+              "price": {
+                "amount": "20.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Aperol Spritz",
+              "desc": "Prosecco, aperol, soda, orange wedge",
+              "price": {
+                "amount": "20.7"
+              }
+            }
           ]
         },
         {
           "title": "Italian Soft Drinks",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Chinotto // Aranciata // Limonata", "price": {"amount": "6.2"}},
-            {"type": "item", "name": "Sparkling Water (500ml)", "price": {"amount": "7.5"}},
-            {"type": "item", "name": "Aqua Panna Still Water", "price": {"amount": "6.5"}}
+            {
+              "type": "item",
+              "name": "Chinotto // Aranciata // Limonata (330ml)",
+              "price": {
+                "amount": "6.4"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Sparkling Water (500ml)",
+              "price": {
+                "amount": "7.5"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Aqua Panna Still Water (500ml)",
+              "price": {
+                "amount": "6.5"
+              }
+            }
           ]
         },
         {
           "title": "Caffé & Tea",
           "column": 1,
           "items": [
-            {"type": "item", "name": "Caffé Pier 71 Blend", "desc": "Cappucino, cafe latte, mocha, flat white, long black, long macchiato, short macchiato", "price": {"amount": "5"}},
-            {"type": "item", "name": "Tea By Tea Drop In A Pot", "desc": "English breakfast, earl grey, peppermint, malabar chai, lemongrass & ginger, honeydew green", "price": {"amount": "5"}}
+            {
+              "type": "item",
+              "name": "Caffé Pier 71 Blend",
+              "desc": "Cappuccino, café latte, mocha, flat white, long black, long macchiato, short macchiato",
+              "price": {
+                "amount": "5"
+              }
+            },
+            {
+              "type": "addon",
+              "text": "+ Decaf",
+              "price": "1"
+            },
+            {
+              "type": "addon",
+              "text": "+ Alternative Milk",
+              "price": "0.8"
+            },
+            {
+              "type": "item",
+              "name": "Tea By Tea Drop In A Pot",
+              "desc": "English breakfast, earl grey, peppermint, malabar chai, lemongrass & ginger, honeydew green, chamomile",
+              "price": {
+                "amount": "5"
+              }
+            }
           ]
         },
         {
           "title": "Spirits & Liqueurs",
           "column": 3,
           "items": [
-            {"type": "note", "lines": ["Vodka, Jim Beam White, Gin, Canadian Club, Famous Grouse Scotch, Cinzano Rosso & Dry, Baileys, Midori, Cointreau, Jack Daniels"]},
-            {"type": "note", "lines": ["Galliano Black, Amaretto, Galliano Ristretto, Frangelico, Limoncello, Johnny Walker Black Label, Grey Goose Vodka, Alizé, Zubrowski Polish Vodka"]},
-            {"type": "note", "lines": ["Grappa, Cognac"]},
-            {"type": "spacer"},
-            {"type": "subheading", "text": "Aperitivi"},
-            {"type": "note", "lines": ["Campari, Aperol, Cinzano Rosso"]},
-            {"type": "spacer"},
-            {"type": "subheading", "text": "Digestives"},
-            {"type": "note", "lines": ["Averna, Amaro del Capo, Limoncello, Frangelico, Baileys"]},
-            {"type": "note", "lines": ["Amaretto, Sambuca Black/White"]},
-            {"type": "note", "lines": ["Fernet Branca"]},
-            {"type": "item", "name": "Galway Pipe Port", "price": {"amount": "12"}}
+            {
+              "type": "subheading",
+              "text": "Digestivi"
+            },
+            {
+              "type": "item",
+              "name": "Galway Pipe Port",
+              "price": {
+                "amount": "12.2"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Averna",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Amaro del Capo",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Limoncello",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Frangelico",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Amaretto",
+              "price": {
+                "amount": "13.6"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Sambuca Black/White",
+              "price": {
+                "amount": "13.6"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Baileys",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Fernet Branca",
+              "price": {
+                "amount": "14"
+              }
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "type": "subheading",
+              "text": "Grappa | Whisky | Cognac"
+            },
+            {
+              "type": "item",
+              "name": "Grappa",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Cognac - Courvoisier VS",
+              "price": {
+                "amount": "14.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Canadian Club",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Jack Daniels",
+              "price": {
+                "amount": "12.7"
+              }
+            },
+            {
+              "type": "item",
+              "name": "Johnny Walker Black",
+              "price": {
+                "amount": "12.7"
+              }
+            }
           ]
         }
       ]
